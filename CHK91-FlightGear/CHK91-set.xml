@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <sim>
+
+    <description>ChangGong-91</description>
+    <long-description>This aircraft is developed by Korean Air in early 1990s.</long-description>
+    <author>SV-001/R</author>
+
+    <aircraft-version>0.1</aircraft-version>
+    <status>Alpha</status>
+    <minimum-fg-version>2018.2.0</minimum-fg-version>
+
+    <flight-model>jsb</flight-model>
+    <aero>CHK-91</aero>
+
+    <rating>
+    </rating>
+
+    <previews>
+    </previews>
+
+    <tags>
+      <tag>fixed-gear</tag>
+      <tag>piston</tag>
+      <tag>propeller</tag>
+      <tag>1990s</tag>
+      <tag>single-engine</tag>
+      <tag>utility</tag>
+    </tags>
+
+    <model>
+      <path>Aircraft/CHK91/Models/CHK91.xml</path>
+    </model>
+
+    <systems>
+      <autopilot>
+        <path>Aircraft/Generic/generic-autopilot.xml</path>
+      </autopilot>
+      <electrical>
+        <path>Aircraft/Generic/generic-electrical.xml</path>
+      </electrical>
+    </systems>
+
+   <consumables>
+     <fuel>
+       <tank n="0">
+         <level-gal_us>5.5</level-gal_us>
+       </tank>
+       <tank n="1">
+         <level-gal_us>5.5</level-gal_us>
+       </tank>
+     </fuel>
+   </consumables>
+
+    <sound>
+      <path archive="y">Aircraft/CHK91/CHK91-sound.xml</path>
+    </sound>
+
+  </sim>
+
+</PropertyList>
